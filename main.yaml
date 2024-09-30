@@ -1,0 +1,57 @@
+# Starter pipeline
+# Start with a minimal pipeline that you can customize to build and deploy your code.
+# Add steps that build, run tests, deploy, and more:
+# https://aka.ms/yaml
+
+variables:
+  MajorVersion: 1
+  MinorVersion: 0
+  PatchVersion: 0
+pr:
+  branches:
+    include:
+      - release*
+trigger:
+  branches:
+    include:
+      - release*
+name: '$(MajorVersion).$(MinorVersion).$(PatchVersion).$(Rev:r)'
+jobs:
+   - job: Build_DEV
+     pool:
+       name: 'Default'
+     steps:
+        - task: PowerShell@2
+          displayName: npm build
+          inputs:
+            targetType: 'inline'
+            script: |
+              npm install -f
+              npm install jquery
+              npm run build
+            workingDirectory: $(System.DefaultWorkingDirectory)
+
+        - task: PowerShell@2
+          displayName: build Move to XAMPP Server
+          inputs:
+            targetType: 'inline'
+            script: |
+              Move-Item .\build\* -Destination "E:\xampp\htdocs" -Force
+            workingDirectory: $(System.DefaultWorkingDirectory)
+
+        - task: PowerShell@2
+          displayName: Clean Directory
+          inputs:
+            targetType: 'inline'
+            script: |
+              Get-ChildItem  -Recurse  | Select -ExpandProperty FullName | sort length -Descending | Remove-Item -Recurse
+            workingDirectory: $(System.DefaultWorkingDirectory)
+
+        # - task: PowerShell@2
+        #   displayName: Clean Directory
+        #   inputs:
+        #     targetType: 'inline'
+        #     script: |
+        #       Get-ChildItem  -Recurse  | Select -ExpandProperty FullName | sort length -Descending | Remove-Item -Recurse
+        #     workingDirectory: 'D:\jainul'
+        

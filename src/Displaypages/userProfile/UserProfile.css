@@ -1,0 +1,113 @@
+.profile_setting {
+  width: 100%;
+  height: 550px;
+  border-radius: 50px;
+  /* margin-top: 50px; */
+  border-bottom: 200px !important;
+background: var(--modal_bg, #FFF);
+box-shadow: -10px -10px 20px 0px rgba(195, 216, 247, 0.25), 20px 20px 20px 0px rgba(0, 0, 0, 0.25);
+ padding-left: 100px;
+ padding-right: 100px;
+}
+ 
+.profile {
+  width: 100%;
+ 
+ 
+}
+ 
+.profile_edit{
+  color: var(--text, rgba(0, 0, 0, 0.693));
+ 
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+ 
+.custom_badge_profile {
+  color: var(--text, rgba(0, 0, 0, 0.678));
+/* font-family: Montserrat; */
+font-size: 14px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+  padding-right: 5px;
+  position: absolute;
+  margin-top: -15px;
+  background: white;
+  text-align: center;
+  vertical-align: bottom;
+  margin-left: 10px;
+  padding-top: 3px;
+  letter-spacing: 2.8px;
+ 
+}
+ 
+.custom_input_profile{
+  text-align: start !important;
+  color: #161717 !important;
+  /* padding-left: 20px; */
+  padding-top: 15px !important;
+}
+ 
+.profile_form{
+  width: 80%;
+}
+ 
+.profile_avatar {
+ /* text-align: center; */
+ margin-left: 110px;
+}
+ 
+ 
+.profile_image_choose {
+  border-radius: 5px;
+background: var(--v-side-bar, #787DBD);
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+cursor: pointer;
+}
+ 
+.profile_settings_btn {
+  margin-top: 70px !important;
+  margin-left: 40px;
+}
+ 
+.profile_upload_image {
+  border-radius: 5px;
+  background: var(--v-side-bar, #787DBD);
+  cursor: pointer;
+  margin-left: 35px;
+}
+ 
+.profile_dashed {
+ 
+  border-style: dashed !important;
+  border: #dbdbde;
+  margin-right: 80px;
+  color: var(--text, rgba(0, 0, 0, 0.50));
+ 
+  font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+ 
+.profile_flag {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 5px;
+}
+ 
+.profile_remove_icon{
+ 
+  position: absolute;
+  margin-left: 70px;
+  margin-top: -20px;
+  background-color: rgb(230, 225, 225);
+}

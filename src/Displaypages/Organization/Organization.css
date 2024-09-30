@@ -1,0 +1,525 @@
+.margin1 {
+  margin-top: 20px;
+  font-size: 20px !important;
+  font-weight: bold !important;
+}
+
+.background1 {
+  background: linear-gradient(to bottom, #cdc4fd, rgba(202, 229, 189, 0));
+}
+
+.test {
+  font-weight: 100;
+}
+
+ 
+.customDataGrid {
+  font-size: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+ 
+.header-small {
+  font-size: 20px;
+  /* Add other styles as needed */
+}
+
+.header-medium {
+  font-size: 14px;
+  /* Add other styles as needed */
+}
+
+.header-large {
+  font-size: 14px;
+  /* Add other styles as needed */
+}
+
+.custom-dialog-content {
+  font-size: 20px;
+  /* Add your custom styles here */
+}
+
+.custom-row {
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+.selected-row {
+  background-color: #e0e0e0; /* Example: Change background color for selected rows */
+  /* Add more styles as needed */
+}
+
+ 
+.margin {
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+.edit {
+  flex-direction: column;
+}
+
+ 
+.MuiDataTable-root {
+  font-size: 14px; /* Adjust the font size for the entire table */
+}
+
+/* Class for table headers */
+.MuiDataTableHeadCell-root {
+  font-size: 16px; /* Adjust the font size for table headers */
+}
+
+/* Class for table body cells */
+.MuiDataTableBodyCell-root {
+  font-size: 14px; /* Adjust the font size for table body cells */
+}
+ 
+.sidebar {
+  display: flex;
+}
+ 
+/* .popup2 {
+  width: 1000px;
+  box-shadow: 4px 4px 8px 4px rgba(0, 0, 0, 0.2),
+    0 6px 20px 4px rgba(0, 0, 0, 0.19);
+   
+} */
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  z-index: 1000;
+}
+ 
+.hr1 {
+  height: 2px;
+  width: 15%;
+  margin-left: 35px;
+  background-color: #28c6d1;
+}
+
+.popup1 {
+  border: #787dbd;
+  border-radius: 5px;
+}
+ 
+.custom-multiselect .chips {
+  background: #ccc; /* Change the background color here */
+  /* Other chips styles... */
+}
+ 
+.custom-multiselect .icon-class {
+  color: red !important; /* Change the color to your desired color */
+}
+ 
+.custom_badge-organization {
+  /* width:80px; */
+  /* padding-left: 5px; */
+  padding-right: 5px;
+  height: 30px;
+  position: absolute;
+  margin-top: -15px;
+  border-radius: 12px;
+  /* -webkit-border-radius:12px; */
+  background: white;
+  color: balck;
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: arial, sans-serif;
+  margin-left: 10px;
+  padding-top: 3px;
+  letter-spacing: 2.8px;
+}
+.custom_input-Organization {
+  text-align: start !important;
+  color: #161717 !important;
+  padding-top: 20px !important;
+}
+ 
+.input1 {
+  height: 50px !important;
+  font-size: 15px !important;
+}
+ 
+.employee-margin {
+  width: 100%;
+  height: calc(100vh - 64px); /* Subtracting any top bar or header height */
+  overflow: hidden; /* Enable vertical scrolling */
+}
+ 
+.centeredHeaderCell span {
+  justify-content: center; /* center, flex-start (left), flex-end(right) */
+}
+ 
+/* CSS */
+.MuiTableCell-head {
+  white-space: normal;
+}
+
+ 
+/* Add this CSS to your stylesheet */
+.MUIDataTableHeadCell-root {
+  white-space: normal !important;
+  word-break: break-all !important;
+  word-wrap: break-word !important;
+}
+
+ 
+/* Adjust the padding and width as needed */
+.MUIDataTable-root .MuiTableCell-head {
+  padding: 8px 16px; /* Adjust as needed */
+  width: auto !important; /* Allow column width to adjust based on content */
+}
+
+ 
+/* CSS to change column color to blue */
+.MUIDataTable-tableHead-1 {
+  background-color: blue !important; /* Change background color of header cells */
+  color: white !important; /* Change text color of header cells */
+}
+ 
+.MUIDataTable-tableBody-2 {
+  background-color: lightblue !important; /* Change background color of body cells */
+  color: navy !important; /* Change text color of body cells */
+}
+ 
+/* Custom CSS to override Bootstrap dropdown styles */
+.dropdown-menu {
+  margin-top: 0; /* Ensure dropdown menu aligns with button */
+ 
+  z-index: 1000; /* Ensure dropdown appears above other content */
+}
+ 
+.employee_table table tr th:first-child {
+  content: "";
+  border-top-left-radius: 10px;
+}
+.employee_table table tr th:last-child {
+  content: "";
+  border-top-right-radius: 10px;
+}
+.employee_table table tr td {
+  border: 0px solid;
+}
+.employee_table table tbody {
+  background: #eeecec;
+}
+.employee_table table th {
+  border: 0px solid;
+}
+.employee_table table tr td:last-child {
+  content: "";
+  background: #eeecec;
+}
+.employee_table table tr th {
+  background: transparent;
+  background-color: transparent !important;
+}
+.employee_table table thead tr {
+  background: #787dbd;
+  border-top-right-radius: 10px;
+}
+.employee_table table tr th:last-child {
+  content: "";
+  background-color: #787dbd !important;
+}
+.employee_table table tr th:nth-child(11) {
+  content: "";
+  border-top-right-radius: 10px;
+}
+.employee_table table tr {
+  margin: 0px 10px;
+}
+.employee_table .MuiPaper-elevation div:nth-child(3) {
+  content: "";
+  margin: 0px 20px;
+  background: #eeecec;
+  /* background-color:#787DBD; */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.MuiToolbar-root.MuiToolbar-gutters.MuiToolbar-regular div {
+  background-color: transparent !important;
+}
+.employee_table .MuiPaper-elevation div:nth-child(3)::-webkit-scrollbar {
+  border-radius: 100px;
+  background-color: #eeecec;
+  height: 10px;
+  width: 10px;
+}
+ 
+/* Track */
+.employee_table .MuiPaper-elevation div:nth-child(3)::-webkit-scrollbar-track {
+  background: #fff;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 100px;
+}
+ 
+/* Handle */
+.employee_table .MuiPaper-elevation div:nth-child(3)::-webkit-scrollbar-thumb {
+  background: #787dbd;
+  border-radius: 100px;
+  margin-left: 10px;
+  width: 10px;
+}
+ 
+/* Handle on hover */
+.employee_table
+  .MuiPaper-elevation
+  div:nth-child(3)::-webkit-scrollbar-thumb:hover {
+  background: #787dbd;
+  border-radius: 100px;
+}
+.employee_table .MuiTableCell-head .MuiCheckbox-root {
+  color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+.employee_table .MuiTableCell-head div {
+  justify-content: center;
+}
+.employee_table .MuiTableCell-body div {
+  justify-content: center;
+}
+.employee_table .Mui-checked {
+  position: relative;
+}
+.employee_table .MuiTableCell-head .Mui-checked:after {
+  content: "";
+  background: url("../../img/tick.png") no-repeat scroll center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+}
+.employee_table .MuiTableCell-body .Mui-checked:after {
+  content: "";
+  background: url("../../img/tick.png") no-repeat scroll center;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  top: -5px;
+  left: 5px;
+}
+.employee_table .MuiCheckbox-root svg {
+  opacity: 0;
+}
+.employee_table .MuiTableCell-body .MuiCheckbox-root {
+  color: rgba(255, 255, 255, 0);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+ 
+.employee_table table thead tr th {
+  background-color: #787dbd !important;
+  color: white;
+  border-right: 0px solid !important;
+}
+ 
+.mui {
+  max-height: 590px !important;
+  min-height: 590px;
+}
+ 
+.employee_table table th {
+  text-shadow: none !important;
+  border: 0px solid !important;
+  outline: none !important;
+}
+.employee_table table td {
+  text-shadow: none !important;
+  border: 0px solid !important;
+  outline: none;
+}
+ 
+.mui_org {
+  max-height: 530px !important;
+  min-height: 530px;
+}
+ 
+.MuiPaper-elevation4 {
+  border-radius: 25px !important;
+  box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2),
+    5px 6px 20px 5px rgba(0, 0, 0, 0.19) !important;
+}
+ 
+/* .MuiFormControl-root {
+  padding: 20px !important;
+} */
+ 
+.MuiDialog-paper {
+  width: 862px !important;
+  border-radius: 25px !important;
+}
+ 
+ 
+ 
+.hr {
+  height: 2px;
+  width: 250px;
+ 
+  background: rgba(13, 13, 13, 0.881);
+}
+ 
+.icon_employee {
+  font-size: 14px !important;
+  height: 20px;
+  width: 20px;
+  color: blue;
+  background-color: white;
+  border-radius: 50%;
+}
+ 
+.icon_employee_add {
+  font-size: 14px !important;
+  height: 20px;
+  width: 20px;
+  color: white;
+  border-radius: 50%;
+  padding-top: 2.5px;
+}
+ 
+.icon_employee_cancel {
+  font-size: 14px !important;
+  height: 20px;
+  width: 20px;
+  color: white;
+  border-radius: 50%;
+  padding-top: 2.5px;
+}
+ 
+.employee_cancel_button {
+  border-radius: 5px;
+  background: linear-gradient(95deg, #f14658 0%, #dc2537 100%);
+  color: white;
+}
+ 
+.employee_add_button {
+  border-radius: 5px;
+  background: linear-gradient(95deg, #787dbd 0%, #4abade 100%);
+  color: white;
+}
+ 
+.popup_sub {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+}
+ 
+.popup_header {
+  font-size: 25px;
+  letter-spacing: 1.8px;
+  font-weight: 700px;
+}
+ 
+.radio {
+  font-size: 14px;
+  letter-spacing: 2.8px;
+}
+ 
+ 
+.export {
+  border-radius: 25px;
+background: var(--modal_bg, #FFF);
+box-shadow: 10px 10px 20px 0px rgba(0, 0, 0, 0.25);
+ 
+}
+ 
+.export_head {
+  color: var(--text, rgba(0, 0, 0, 0.50));
+font-family: "Open Sans";
+font-size: 35px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: 3.5px;
+}
+ 
+.export_p {
+  color: var(--text, rgba(0, 0, 0, 0.756));
+ 
+font-family: "Open Sans";
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 3px;
+}
+ 
+.export_email {
+  border-radius: 5px;
+background: #FFF;
+ 
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+ 
+.export_input {
+  outline: 0;
+  border: none;
+}
+ 
+.export_format {
+  border-radius: 5px;
+background: #FFF;
+ 
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+ 
+.export_button {
+  margin-top: 70px !important;
+  border-radius: 0px 0px 25px 25px;
+  background: rgba(0, 0, 0, 0.10);
+  justify-content: center;
+ 
+}
+ 
+.export_btn {
+  border-radius: 50px;
+border: 1px solid #787DBD;
+ 
+box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25), -2px -2px 8px 0px rgba(255, 255, 255, 0.25);
+}
+ 
+.export_cancel {
+  margin-top: -7px;
+}
+ 
+.export_close_icon{
+  border-radius: 5px;
+background: var(--cancel, rgba(255, 71, 76, 0.75));
+cursor: pointer;
+}
+ 
+.invite_btn {
+  border-radius: 5px;
+background: rgba(22, 68, 229, 0.64);
+box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+color: white;
+}
+ 
+.edit_employee_btn {
+  border-radius: 5px;
+  background: rgba(22, 68, 229, 0.64);
+  box-shadow: 1px 1px 4px 0px rgba(0, 0, 0, 0.25);
+  color: white;
+}
+ 
+.MuiTableCell-head {
+background: #787DBD !important;
+}

@@ -1,0 +1,226 @@
+/* General Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header Styles */
+.header1 {
+    background: linear-gradient(135deg, #9055FF, #375684);
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+header button {
+    background-color: #fff;
+    color: #7b2ff7;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+header button:hover {
+    background-color: #e1e1e1;
+}
+
+/* Why Choose Us Section */
+.why-choose-us {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.why-choose-us h2 {
+    color: #7b2ff7;
+    margin-bottom: 40px;
+}
+
+.features-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.feature {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    width: 28%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.feature h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.feature p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Pricing Plans Section */
+.pricing-plans {
+    background-color: #f1f1f1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.pricing-plans h2 {
+    color: #7b2ff7;
+    margin-bottom: 40px;
+}
+
+.pricing-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing-plan {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 20px;
+    width: 28%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+.pricing-plan:hover {
+    border-color: #7b2ff7;
+}
+
+.pricing-plan h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.pricing-plan p {
+    font-size: 1em;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.pricing-plan ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.pricing-plan ul li {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+/* Features Section */
+.features {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    color: #7b2ff7;
+    margin-bottom: 40px;
+}
+
+.features .feature {
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.features .feature h3 {
+    color: #333;
+    margin-bottom: 15px;
+}
+
+.features .feature p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f1f1f1;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    color: #7b2ff7;
+    margin-bottom: 40px;
+}
+
+.testimonials .testimonial {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.testimonials .testimonial h3 {
+    color: #333;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.testimonials .testimonial p {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 0.9em;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+footer .footer-content a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+footer .footer-content a:hover {
+    text-decoration: underline;
+}
